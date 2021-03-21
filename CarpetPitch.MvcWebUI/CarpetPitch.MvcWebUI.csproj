@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\plugins\jstree\themes\default\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.2" />
+  </ItemGroup>
+ 
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarpetPitch.Business\CarpetPitch.Business.csproj" />
+    <ProjectReference Include="..\CarpetPitch.DataAccess\CarpetPitch.DataAccess.csproj" />
+    <ProjectReference Include="..\CarpetPitch.Migrations\CarpetPitch.Migrations.csproj" />
+  </ItemGroup>
+
+</Project>
